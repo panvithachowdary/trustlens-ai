@@ -1,16 +1,128 @@
-# React + Vite
+# TrustLens AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TrustLens AI is a transparent and trustworthy AI-powered security operations dashboard designed to help IT administrators analyze system logs, identify potential threats, and make informed decisions with full human oversight. The platform combines automated threat detection with explainable AI principles, ensuring that every recommendation is accompanied by reasoning, confidence scores, limitations, alternative actions, and auditability.
 
-Currently, two official plugins are available:
+Unlike traditional black-box security tools, TrustLens AI emphasizes transparency by allowing users to inspect why a threat was detected, what evidence contributed to the decision, what limitations exist in the analysis, and what alternative actions can be considered before taking action.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Key Features
 
-## React Compiler
+### AI-Powered Threat Detection
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Analyze uploaded IT logs and identify potential security threats such as:
 
-## Expanding the ESLint configuration
+* Malware Detection
+* Brute Force Attempts
+* Suspicious IP Access
+* Patch Vulnerabilities
+* Device Health Issues
+* Data Exfiltration Patterns
+* Unauthorized Configuration Changes
+* Phishing Attempts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Explainable AI Recommendations
+
+Every detected threat includes:
+
+* Threat classification
+* Severity level
+* Confidence score
+* AI reasoning and explanation
+* Recommended action
+* Alternative actions
+* Known limitations
+* Supporting evidence
+* Data source transparency
+
+### Human-in-the-Loop Security
+
+TrustLens AI ensures humans remain in control through:
+
+* Approve actions
+* Override AI recommendations
+* Escalate incidents
+* Review confidence scores before taking action
+
+### Audit Trail
+
+Track all human decisions and maintain accountability with:
+
+* Approval history
+* Override records
+* Escalation logs
+* Timestamped decision tracking
+
+### Incident Reporting
+
+Generate structured incident reports containing:
+
+* Threat details
+* Recommended remediation
+* Confidence metrics
+* Human decisions
+* Safeguard information
+
+### AI Transparency Dashboard
+
+View complete transparency information including:
+
+* AI reasoning
+* Confidence levels
+* Data sources
+* Model limitations
+* Alternative recommendations
+* Human oversight controls
+
+### Interactive Security Interface
+
+Modern dashboard experience featuring:
+
+* Real-time threat cards
+* Confidence visualizations
+* Animated molecular cybersecurity background
+* Security metrics overview
+* Responsive user interface
+
+## Technology Stack
+
+### Frontend
+
+* React
+* Vite
+* JavaScript
+* CSS3
+
+### Backend
+
+* FastAPI
+* Python
+* REST APIs
+
+### Deployment
+
+* Vercel (Frontend)
+* Render (Backend)
+
+## How It Works
+
+1. Upload an IT log file or generate sample logs.
+2. The backend analyzes the log content.
+3. Potential threats are identified and classified.
+4. Confidence scores and explanations are generated.
+5. The system presents recommendations with transparency details.
+6. Human reviewers approve, override, or escalate actions.
+7. All decisions are recorded in the audit trail.
+
+## Example Use Cases
+
+* Security Operations Centers (SOC)
+* IT Infrastructure Monitoring
+* Enterprise Security Teams
+* Cybersecurity Education
+* Explainable AI Demonstrations
+* Human-AI Decision Making Workflows
+
+## Project Vision
+
+TrustLens AI demonstrates how AI systems can be designed with transparency, accountability, and human oversight at their core. Rather than replacing human judgment, the platform empowers security professionals with explainable recommendations, helping organizations build trust in AI-assisted decision-making systems.
+
+By combining threat detection, explainability, auditability, and human control, TrustLens AI serves as a practical example of responsible AI deployment in cybersecurity environments.
