@@ -158,7 +158,7 @@ Large upload detected from finance laptop to external domain.`;
     try {
       setLoading(true);
 
-      const response = await fetch("https://trustlens-ai-backend.onrender.com", {
+      const response = await fetch("https://trustlens-ai-backend.onrender.com/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
